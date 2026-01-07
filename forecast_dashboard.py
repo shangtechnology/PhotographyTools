@@ -26,6 +26,11 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 
+st.set_page_config(page_title="BOOT TEST", layout="wide")
+st.write("✅ BOOT OK — the script is running")
+st.stop()
+
+
 
 # -----------------------------
 # Cities (Australia)
